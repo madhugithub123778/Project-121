@@ -1,0 +1,69 @@
+.header{
+text-align: center;background-image: linear-gradient(to bottom right, aquamarine, rgb(185, 185, 255)); font-family: fantasy;margin-top:0px;top:0;box-shadow: 15px 15px 20px darkturquoise;font-weight: bold;height: 130px;
+
+
+
+}
+.header img{
+    width: 100px; height: 100px;
+    
+    
+    }
+
+    .header h1{
+font-size: 30px;
+
+    }
+
+    body{
+background-color:rgb(250, 234, 198);
+
+
+    }
+
+    .output
+{
+    background-color:navy;width: 400px;margin-left: 200px;margin-top: 50px;padding: 30px;font-family: 'Courier';border-radius: 20px;border: 20px double white;height: 600px;text-align: center;color: white;
+    animation-name: example;
+animation-duration: 1s;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+    from {box-shadow: 3px 3px 30px lightskyblue;}
+
+    to {box-shadow: 3px 3px 30px navy;}
+
+}
+
+.output img{
+border: 2px dashed yellow;
+
+
+}
+
+#lens_ans, #mobileN_ans{
+
+background-color: yellow; color: red; font-size: 18px; font-family: Impact;
+
+}
+
+#final{
+
+background-color:yellow;font-family: 'Lucida Grande';font-size: 25px; font-weight: bold;color: black;
+
+}
+
+.end{
+   
+    background-color: pink;margin-left: 250px ;width: 900px;margin-top: 40px;margin-bottom: 10px;border-radius: 30px;border: 3px dashed purple;
+
+
+}
+
+.end h4{
+    font-family: 'Trebuchet MS';text-align: center;color: red; font-weight: bold;
+    
+    }

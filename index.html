@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>Case Study - 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<body>
+
+<div class="col-xs-12 header">
+<h1>Case Study: Google Lens vs MobileNet
+<img src="lens.gif"style="border-radius: 20px;">
+</h1>
+</div>
+
+ <br><br><br>
+
+<div class= "col-sm-6 col-xs-12 output">
+<b style= "color: white; font-family: 'Trebuchet MS';">1. Test Image: </b>
+<br><br>
+<img src="cube.jpg"width= "200px"height= "200px">
+
+
+<h5><img src="https://pbs.twimg.com/profile_images/40405312/MobileNet-logorawsm_400x400.png"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>MobileNet</b>:
+    <span id="mobileN_ans">Jigsaw</span>
+    </h5>
+    
+    <h5><img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>Google Lens</b>:
+    <span id="lens_ans">Rubik's Cube 3x3</span>
+    
+    </h5>
+    <div class="conc">
+    <h4 style="background-color: pink;color: black; width: 100px;margin-left: 100px;">Result: </h4>
+    <br>
+    <h4 id="final">Google Lens provided the correct answer</h4>
+    </div>
+    
+    
+
+
+
+
+</div>
+<div class= "col-sm-6 col-xs-12 output">
+    <b style= "color: white; font-family: 'Trebuchet MS';">2. Test Image: </b>
+    <br><br>
+    <img src="lamp.jpg"width= "200px"height= "200px"style="border-color: violet">
+    
+    
+    <h5><img src="https://pbs.twimg.com/profile_images/40405312/MobileNet-logorawsm_400x400.png"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>MobileNet</b>:
+        <span id="mobileN_ans">Lamp Shade</span>
+        </h5>
+        
+        <h5><img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>Google Lens</b>:
+        <span id="lens_ans">Lamp Shade</span>
+        
+        </h5>
+        <div class="conc">
+        <h4 style="background-color: pink;color: black; width: 100px;margin-left: 100px;">Result: </h4>
+        <br>
+        <h4 id="final">Both models provided correct answers</h4>
+        </div>
+</div>
+<br><br>
+        <div class= "col-sm-6 col-xs-12 output"style="margin-left: 500px;">
+            <b style= "color: white; font-family: 'Trebuchet MS';">3. Test Image: </b>
+            <br><br>
+            <img src="ball.jpg"width= "200px"height= "200px"style="border-color: lightblue">
+            
+            
+            <h5><img src="https://pbs.twimg.com/profile_images/40405312/MobileNet-logorawsm_400x400.png"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>MobileNet</b>:
+                <span id="mobileN_ans">Tennis Ball</span>
+                </h5>
+                
+                <h5><img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>Google Lens</b>:
+                <span id="lens_ans">Tennis Ball</span>
+                
+                </h5>
+                <div class="conc">
+                <h4 style="background-color: pink;color: black; width: 100px;margin-left: 100px;">Result: </h4>
+                <br>
+                <h4 id="final">Both models provided correct answers</h4>
+                </div>
+</div>
+
+<div class= "col-sm-6 col-xs-12 output"style="margin-left:200px;">
+    <b style= "color: white; font-family: 'Trebuchet MS';">4. Test Image: </b>
+<br><br>
+       <img src="tomato.jpg"width= "200px"height= "200px"style="border-color: yellowgreen">
+       
+       
+       <h5><img src="https://pbs.twimg.com/profile_images/40405312/MobileNet-logorawsm_400x400.png"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>MobileNet</b>:
+           <span id="mobileN_ans">Balloon</span>
+           </h5>
+           
+           <h5><img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>Google Lens</b>:
+           <span id="lens_ans">Naranjilla</span>
+           
+           </h5>
+           <div class="conc">
+           <h4 style="background-color: pink;color: black; width: 100px;margin-left: 100px;">Result: </h4>
+           <br>
+           <h4 id="final">Neither of the models provided correct answers</h4>
+           </div>
+   
+</div>
+
+           <div class= "col-sm-6 col-xs-12 output">
+               <b style= "color: white; font-family: 'Trebuchet MS';">5. Test Image: </b>
+               <br><br>
+               <img src="water bottle.jpg"width= "200px"height= "200px"style="border-color: orange">
+               
+               
+               <h5><img src="https://pbs.twimg.com/profile_images/40405312/MobileNet-logorawsm_400x400.png"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>MobileNet</b>:
+                   <span id="mobileN_ans">Water Bottle</span>
+                   </h5>
+                   
+                   <h5><img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"width= "40px"height="40px"style="margin-right: 10px; border: none;border-radius: 10px;">Output On <b>Google Lens</b>:
+                   <span id="lens_ans">Stainless Steel Water Bottle</span>
+                   
+                   </h5>
+                   <div class="conc">
+                   <h4 style="background-color: pink;color: black; width: 100px;margin-left: 100px;">Result: </h4>
+                   <br>
+                   <h4 id="final">Google Lens provided the more accurate answer</h4>
+                   </div>
+
+
+</div>
+    
+
+<div class="col-sm-6 col-xs-12 end">
+    <h4>Conclusion: I have tested for 5 objects. Google Lens gave me 4 correct results and MobileNet gave me 3 correct results. 1 result was inaccurate for both. Therefore, Google Lens is more accurate when compared to MobileNet. </h4>
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
